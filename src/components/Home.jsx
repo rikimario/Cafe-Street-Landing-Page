@@ -1,4 +1,6 @@
 import CoffeeImage from "../assets/imgs/unsplash_PKXAiiy1O4U.png";
+import Ellipse from "../assets/imgs/Ellipse 6.png";
+import OrderNowCart from "../assets/imgs/order now cart.png";
 
 export default function Hero() {
   return (
@@ -13,9 +15,15 @@ export default function Hero() {
             Boost your productivity and build your mood with a glass of coffee
             in the morning
           </p>
-          <div className="flex gap-12 pt-12">
-            <button className="bg-[#2F2105] text-[#FFF] text-sm py-3 px-3 font-s w-[9rem] rounded-[2.0625rem]">
+          <div className="flex gap-12 pt-10">
+            <button className="flex gap-2 justify-around bg-[#2F2105] text-[#FFF] text-sm py-3 px-5 font-s w-[9rem] rounded-[2.0625rem] relative overflow-hidden">
               Order now
+              <img src={Ellipse} alt="orange circle" />
+              <img
+                className="absolute top-1/2 left-[6.9rem] transform -translate-x-1/2 -translate-y-1/2"
+                src={OrderNowCart}
+                alt="shopping cart"
+              />
             </button>
             <button className="text-[#F4AE26] text-xs">More menu</button>
           </div>
