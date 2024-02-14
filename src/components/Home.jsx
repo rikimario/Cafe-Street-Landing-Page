@@ -1,6 +1,7 @@
 import CoffeeImage from "../assets/imgs/unsplash_PKXAiiy1O4U.png";
 import Ellipse from "../assets/imgs/Ellipse 6.png";
 import OrderNowCart from "../assets/imgs/order now cart.png";
+import Exclude from "../assets/imgs/Exclude.png";
 
 export default function Hero() {
   return (
@@ -25,15 +26,21 @@ export default function Hero() {
                 alt="shopping cart"
               />
             </button>
-            <button className="text-[#F4AE26] text-xs">More menu</button>
+            <button className="text-[#F4AE26] text-lg">More menu</button>
           </div>
         </div>
-        <div className="flex justify-center pt-48">
+        <div className="flex justify-center pt-48 relative z-20">
           <img
-            className="flex "
+            className="flex relative z-10"
             src={CoffeeImage}
             alt="Image of a cup of coffee"
           />
+          <img
+            className="absolute -inset-1 top-[16.5rem] left-[9.1rem] z-10"
+            src={Exclude}
+            alt="shape of a cup"
+          />
+          <span className="absolute -inset-1 top-44 left-[8.8rem] rounded-full bg-[#2F2105] w-[416px] h-[416px] z-0"></span>
         </div>
       </div>
     </>
