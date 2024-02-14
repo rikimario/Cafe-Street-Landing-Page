@@ -3,6 +3,7 @@ import Ellipse from "../assets/imgs/Ellipse 6.png";
 import OrderNowCart from "../assets/imgs/order now cart.png";
 import Exclude from "../assets/imgs/Exclude.png";
 import IconStar from "../assets/imgs/akar-icons_star.png";
+import CoffeeBeans from "../assets/imgs/bg_img_hero.png";
 
 export default function Hero() {
   return (
@@ -31,8 +32,14 @@ export default function Hero() {
               More menu
             </button>
           </div>
+          <div className="absolute top-[40rem] right-[66rem]">
+            <img src={CoffeeBeans} alt="coffee beans" />
+          </div>
         </div>
         <div className="flex justify-center pt-48 relative z-20">
+          <div className="absolute bottom-[14rem] left-[14rem]">
+            <img src={CoffeeBeans} alt="coffee beans" />
+          </div>
           <img
             className="flex relative z-10"
             src={CoffeeImage}
