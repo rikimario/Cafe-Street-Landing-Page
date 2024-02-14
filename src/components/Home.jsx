@@ -8,7 +8,7 @@ import CoffeeBeans from "../assets/imgs/bg_img_hero.png";
 export default function Hero() {
   return (
     <>
-      <div className="max-w-fit grid grid-cols-2 items-center text-left bg-[#f6ebda] pl-[15.44rem] pb-96">
+      <div className="max-w-fit grid grid-cols-2 items-center text-left bg-[#f6ebda] pl-[11.44rem] pb-96">
         <div className="pt-[13.5rem]">
           <h1 className="text-[#2F2105] text-5xl font-bold leading-[1.3] pr-[15rem]">
             Enjoy your <span className="text-[#FF902B]">coffee</span> before
@@ -19,11 +19,11 @@ export default function Hero() {
             in the morning
           </p>
           <div className="flex gap-12 pt-10">
-            <button className="flex gap-2 justify-around bg-[#2F2105] text-[#FFF] text-sm py-3 px-5 font-s w-[9rem] rounded-[2.0625rem] relative overflow-hidden hover:bg-[#3f3219]">
+            <button className="flex justify-around items-center bg-[#2F2105] text-[#FFF] text-base py-3 px-5 w-[11rem] rounded-[2.0625rem] relative overflow-hidden hover:bg-[#4D3A11] hover:transition-colors">
               Order now
               <img src={Ellipse} alt="orange circle" />
               <img
-                className="absolute top-1/2 left-[6.9rem] transform -translate-x-1/2 -translate-y-1/2"
+                className="absolute top-1/2 left-[8.41rem] transform -translate-x-1/2 -translate-y-1/2"
                 src={OrderNowCart}
                 alt="shopping cart"
               />
@@ -37,7 +37,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex justify-center pt-48 relative z-20">
-          <div className="absolute bottom-[14rem] left-[14rem]">
+          <div className="absolute bottom-[14rem] left-[15rem]">
             <img src={CoffeeBeans} alt="coffee beans" />
           </div>
           <img
@@ -59,7 +59,7 @@ export default function Hero() {
             18K
           </span>
 
-          <span className="absolute -inset-1 top-[17rem] left-[27.9rem] flex items-center justify-center text-[#2F2105] text-center text-2xl font-bold tracking-wide bg-white border-solid border-8 border-gray-300 border-opacity-20 w-[8.812rem] h-[4rem] rounded-[42px] z-10 gap-3">
+          <span className="absolute -inset-1 top-[17rem] left-[28.5rem] flex items-center justify-center text-[#2F2105] text-center text-2xl font-bold tracking-wide bg-white border-solid border-8 border-gray-300 border-opacity-20 w-[8.812rem] h-[4rem] rounded-[42px] z-10 gap-3">
             4.8
             <img src={IconStar} alt="icon star" />
           </span>
