@@ -14,7 +14,7 @@ export default function Nav() {
     <header className="">
       <nav className="absolute top-0 left-0 w-full pl-7 flex justify-around items-center z-50">
         <a href="#">
-          <div className="absolute top-[2.3rem] left-[11.88rem]">
+          <div className="absolute top-[2.3rem] left-[11.711rem]">
             <img src={Liquid} alt="logo liquid" />
           </div>
           <div className="flex mt-9">
@@ -31,7 +31,7 @@ export default function Nav() {
             </div>
           </div>
         </a>
-        <ul className="flex text-lg text-[#000] items-center mt-7 gap-8">
+        <ul className="flex text-lg font-bold text-[#000] items-center mt-7 gap-8">
           <a href="#">
             <li className="text-[#FF902B]">About us</li>
           </a>

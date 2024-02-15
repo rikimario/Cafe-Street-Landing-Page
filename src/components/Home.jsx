@@ -4,6 +4,8 @@ import OrderNowCart from "../assets/imgs/order now cart.png";
 import Exclude from "../assets/imgs/Exclude.png";
 import IconStar from "../assets/imgs/akar-icons_star.png";
 import CoffeeBeans from "../assets/imgs/bg_img_hero.png";
+import CappuccinoHero from "../assets/imgs/Rectangle 3.png";
+import CappuccinoHeroBlur from "../assets/imgs/Rectangle 4.png";
 
 export default function Hero() {
   return (
@@ -19,7 +21,7 @@ export default function Hero() {
             in the morning
           </p>
           <div className="flex gap-12 pt-10">
-            <button className="flex justify-around items-center bg-[#2F2105] text-[#FFF] text-base py-3 px-5 w-[11rem] rounded-[2.0625rem] relative overflow-hidden hover:bg-[#4D3A11] hover:transition-colors">
+            <button className="flex justify-around items-center bg-[#2F2105] text-[#FFF] text-base py-3 px-5 w-[11rem] rounded-[2.0625rem] relative overflow-hidden hover:bg-[#362c18] transition-colors duration-200">
               Order now
               <img src={Ellipse} alt="orange circle" />
               <img
@@ -51,7 +53,13 @@ export default function Hero() {
             alt="shape of a cup"
           />
 
-          <span className="absolute -inset-1 top-52 left-[3.5rem] flex items-center justify-center text-[#2F2105] text-center text-2xl font-bold tracking-wide bg-white border-solid border-8 border-gray-300 border-opacity-20 w-[16.95rem] h-[4rem] rounded-[3.565rem] z-10">
+          <span className="absolute top-[12.3rem] right-[24.05rem] z-10">
+            <img src={CappuccinoHero} alt="" />
+          </span>
+          <span className="absolute top-[12.6rem] right-[24.35rem] z-20">
+            <img src={CappuccinoHeroBlur} alt="" />
+          </span>
+          <span className="absolute top-[13.2rem] right-[28.4rem] z-50 text-[#2F2105] text-2xl font-bold tracking-wide">
             Cappuccino
           </span>
 
