@@ -7,9 +7,9 @@ import LogoNav from "../assets/imgs/logo_coffe.svg";
 export default function Nav() {
   return (
     <header className="">
-      <nav className="absolute top-0 left-16 w-full pr-[11.44rem] flex justify-around items-center z-50">
+      <nav className="absolute top-0 left-0 w-full pr-[11.44rem] flex justify-around items-center z-50">
         <a className="relative" href="/">
-          <div className="pt-[2.2rem]">
+          <div className="pt-[2.2rem] pl-[4.2rem]">
             <img src={LogoNav} alt="" />
           </div>
         </a>
