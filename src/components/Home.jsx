@@ -40,11 +40,11 @@ export default function Hero() {
       </div>
 
       <div className="relative flex justify-center pt-48">
-        <div className="absolute top-0 left-44">
+        <div className="absolute top-0 left-52">
           <img src={CoffeeBeans} alt="coffee beans" />
         </div>
 
-        <div className="pr-16 z-50">
+        <div className="z-50">
           <img className="flex items-start" src={ImgHero} alt="" />
         </div>
       </div>
