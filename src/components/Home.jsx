@@ -32,7 +32,7 @@ export default function Hero() {
 
         <div>
           <img
-            className="absolute top-[40rem] right-[67rem]"
+            className="absolute top-[40rem] right-[62rem]"
             src={CoffeeBeans}
             alt="coffee beans"
           />
