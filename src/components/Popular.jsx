@@ -8,7 +8,7 @@ import PopularBlur from "../assets/imgs/popular-blur.svg";
 export default function Popular() {
   return (
     <section className="relative px-32 bottom-96">
-      <h2 className="text-4xl font-bold h-6 pl-28 ">
+      <h2 className="text-4xl font-bold h-6 pl-28">
         Popular{" "}
         <span className="underline underline-offset-8 decoration-4 decoration-[#FF902B]">
           Now
