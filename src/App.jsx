@@ -3,6 +3,7 @@ import Nav from "./components/Navigation";
 import Popular from "./components/Popular";
 import HowTo from "./components/HowTo";
 import About from "./components/AboutUs";
+import SpecialMenu from "./components/SpecialMenu";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Popular />
       <HowTo />
       <About />
+      <SpecialMenu />
     </>
   );
 }
