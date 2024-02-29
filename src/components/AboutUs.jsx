@@ -3,7 +3,7 @@ import AboutCoffeeImg from "../assets/imgs/about-coffee-img.svg";
 
 export default function About() {
   return (
-    <section className=" pt-36 flex">
+    <section className="pb-36 pt-36 flex">
       <img className="absolute w-full" src={AboutImg} alt="img background" />
 
       <div className="relative flex-1 z-20">
