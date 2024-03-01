@@ -74,7 +74,7 @@ export default function Popular() {
               alt="vanilla latte"
             />
             <div className="flex justify-between items-center text-2xl font-semibold text-[#2F2105]">
-              <h2 className="pl-4 py-4">Vanilla Latte</h2>
+              <h2 className="pl-4 py-4">Hazelnut Latte</h2>
               <p className="font-bold pr-6">23 K</p>
             </div>
             <div className="flex justify-left items-center pt-2">
